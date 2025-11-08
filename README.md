@@ -7,11 +7,11 @@
 📂Estructura del Repositorio </br> El contenido está organizado por la tecnología principal o la plataforma de Cisco:</br>
 ├── ansible/         ⏩⏩⏩            # Playbooks y roles de Ansible para configuración.</br>
 ├── python/</br>
-│   ├── netmiko-examples/        # Ejemplos de SSH/Telnet con Netmiko.</br>
-│   ├── dnac-scripts/            # Scripts que usan la API de Cisco DNA Center.</br>
-│   └── meraki-api-tools/         # Herramientas para interactuar con la API de Meraki.</br>
-├── postman-collections/          # Colecciones para probar APIs (DNA Center, Meraki, etc.).</br>
-└── terraform-labs/              # Ejemplos de infraestructura como código (IaC).</br>
+│   ├── netmiko-examples/    ⏩⏩⏩      # Ejemplos de SSH/Telnet con Netmiko.</br>
+│   ├── dnac-scripts/        ⏩⏩⏩      # Scripts que usan la API de Cisco DNA Center.</br>
+│   └── meraki-api-tools/    ⏩⏩⏩     # Herramientas para interactuar con la API de Meraki.</br>
+├── postman-collections/    ⏩⏩⏩    # Colecciones para probar APIs (DNA Center, Meraki, etc.).</br>
+└── terraform-labs/        ⏩⏩⏩       # Ejemplos de infraestructura como código (IaC).</br>
 </br>
 🛠️ Tecnologías y Plataformas Clave </br> Tipo de Herramientas/Plataformas Descripción Lenguaje PrincipalPython 3.xBase de la automatización y desarrollo de scripts.ConfiguraciónAnsible, TerraformGestión de configuración y despliegue de infraestructura como código.DispositivosIOS-XE, NX-OS, Meraki, ACIEntornos de red y nube más comunes.ControladorasCisco DNA Center, NSOPlataformas de automatización centralizada.Protocolos/APIsREST/RESTCONF, NETCONF, gRPCInteracción programática con dispositivos y controladoras.</br>
 </br>
