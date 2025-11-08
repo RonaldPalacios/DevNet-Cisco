@@ -14,7 +14,7 @@
 └── terraform-labs/        ⏩⏩⏩       # Ejemplos de infraestructura como código (IaC).</br>
 </br>
 🛠️ Tecnologías y Plataformas Clave </br> Tipo de Herramientas/Plataformas Descripción Lenguaje Principal </br> ➕ Python 3.x Base de la automatización y desarrollo de scripts. 
-Configuración Ansible, Terraform </br> ➕Gestión de configuración y despliegue de infraestructura como código. Dispositivos IOS-XE, NX-OS, Meraki, ACI Entornos de red y nube más comunes. Controladoras Cisco DNA Center, NSOPlataformas de automatización centralizada. Protocolos /APIsREST/RESTCONF, NETCONF, gRPC Interacción programática con dispositivos y controladoras.</br>
+Configuración Ansible, Terraform </br> ➕ Gestión de configuración y despliegue de infraestructura como código. Dispositivos IOS-XE, NX-OS, Meraki, ACI Entornos de red y nube más comunes. Controladoras Cisco DNA Center, NSOPlataformas de automatización centralizada. Protocolos /APIsREST/RESTCONF, NETCONF, gRPC Interacción programática con dispositivos y controladoras.</br>
 </br>
 🧪 Casos de Uso
 Ejecuta y adapta estos ejemplos a tus necesidades. Aquí tienes algunos puntos de partida para explorar:
