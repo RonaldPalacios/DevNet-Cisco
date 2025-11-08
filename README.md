@@ -13,7 +13,8 @@
 ├── postman-collections/    ⏩⏩⏩    # Colecciones para probar APIs (DNA Center, Meraki, etc.).</br>
 └── terraform-labs/        ⏩⏩⏩       # Ejemplos de infraestructura como código (IaC).</br>
 </br>
-🛠️ Tecnologías y Plataformas Clave </br> Tipo de Herramientas/Plataformas Descripción Lenguaje PrincipalPython 3.xBase de la automatización y desarrollo de scripts.ConfiguraciónAnsible, TerraformGestión de configuración y despliegue de infraestructura como código.DispositivosIOS-XE, NX-OS, Meraki, ACIEntornos de red y nube más comunes.ControladorasCisco DNA Center, NSOPlataformas de automatización centralizada.Protocolos/APIsREST/RESTCONF, NETCONF, gRPCInteracción programática con dispositivos y controladoras.</br>
+🛠️ Tecnologías y Plataformas Clave </br> Tipo de Herramientas/Plataformas Descripción Lenguaje Principal </br> ➕ Python 3.x Base de la automatización y desarrollo de scripts. 
+Configuración Ansible, TerraformGestión de configuración y despliegue de infraestructura como código. Dispositivos IOS-XE, NX-OS, Meraki, ACI Entornos de red y nube más comunes. Controladoras Cisco DNA Center, NSOPlataformas de automatización centralizada. Protocolos /APIsREST/RESTCONF, NETCONF, gRPC Interacción programática con dispositivos y controladoras.</br>
 </br>
 🧪 Casos de Uso
 Ejecuta y adapta estos ejemplos a tus necesidades. Aquí tienes algunos puntos de partida para explorar:
