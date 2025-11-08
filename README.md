@@ -2,15 +2,18 @@
 </br>
 📌Tabla de ContenidosEnfoque PrincipalEstructura del RepositorioTecnologías ClaveComenzando (Getting Started)Requisitos PreviosInstalaciónCasos de UsoContribucionesLicencia💡</br>
 </br>
-Enfoque PrincipalEl código se organiza para cubrir los siguientes pilares de la programabilidad:Automatización de Redes (NetDevOps): Uso de Python (con librerías como Netmiko, Paramiko, NAPALM, pyATS) y Ansible para tareas rutinarias de configuración, recopilación de datos y pruebas en dispositivos Cisco (IOS-XE, NX-OS, etc.).APIs y SDN: Ejemplos de consumo de APIs REST con plataformas líderes como Cisco DNA Center, Meraki, Webex y Cisco ACI.Gestión de Infraestructura: Scripts para la orquestación y despliegue usando herramientas como Terraform o NSO (Network Service Orchestrator).DevOps y Contenedores: Integración básica con Docker para asegurar entornos de ejecución consistentes.📂 
+Enfoque PrincipalEl código se organiza para cubrir los siguientes pilares de la programabilidad:Automatización de Redes (NetDevOps): Uso de Python (con librerías como Netmiko, Paramiko, NAPALM, pyATS) y Ansible para tareas rutinarias de configuración, recopilación de datos y pruebas en dispositivos Cisco (IOS-XE, NX-OS, etc.).APIs y SDN: Ejemplos de consumo de APIs REST con plataformas líderes como Cisco DNA Center, Meraki, Webex y Cisco ACI.Gestión de Infraestructura: Scripts para la orquestación y despliegue usando herramientas como Terraform o NSO (Network Service Orchestrator).DevOps y Contenedores: Integración básica con Docker para asegurar entornos de ejecución consistentes.📂 </br>
+</br>
 Estructura del RepositorioEl contenido está organizado por la tecnología principal o la plataforma de Cisco:├── ansible/                  # Playbooks y roles de Ansible para configuración.
-├── python/
-│   ├── netmiko-examples/     # Ejemplos de SSH/Telnet con Netmiko.
-│   ├── dnac-scripts/         # Scripts que usan la API de Cisco DNA Center.
-│   └── meraki-api-tools/     # Herramientas para interactuar con la API de Meraki.
-├── postman-collections/      # Colecciones para probar APIs (DNA Center, Meraki, etc.).
-└── terraform-labs/           # Ejemplos de infraestructura como código (IaC).
-🛠️ Tecnologías y Plataformas ClaveTipoHerramientas/PlataformasDescripciónLenguaje PrincipalPython 3.xBase de la automatización y desarrollo de scripts.ConfiguraciónAnsible, TerraformGestión de configuración y despliegue de infraestructura como código.DispositivosIOS-XE, NX-OS, Meraki, ACIEntornos de red y nube más comunes.ControladorasCisco DNA Center, NSOPlataformas de automatización centralizada.Protocolos/APIsREST/RESTCONF, NETCONF, gRPCInteracción programática con dispositivos y controladoras.
+├── python/</br>
+│   ├── netmiko-examples/     # Ejemplos de SSH/Telnet con Netmiko.</br>
+│   ├── dnac-scripts/         # Scripts que usan la API de Cisco DNA Center.</br>
+│   └── meraki-api-tools/     # Herramientas para interactuar con la API de Meraki.</br>
+├── postman-collections/      # Colecciones para probar APIs (DNA Center, Meraki, etc.).</br>
+└── terraform-labs/           # Ejemplos de infraestructura como código (IaC).</br>
+</br>
+🛠️ Tecnologías y Plataformas ClaveTipoHerramientas/PlataformasDescripciónLenguaje PrincipalPython 3.xBase de la automatización y desarrollo de scripts.ConfiguraciónAnsible, TerraformGestión de configuración y despliegue de infraestructura como código.DispositivosIOS-XE, NX-OS, Meraki, ACIEntornos de red y nube más comunes.ControladorasCisco DNA Center, NSOPlataformas de automatización centralizada.Protocolos/APIsREST/RESTCONF, NETCONF, gRPCInteracción programática con dispositivos y controladoras.</br>
+</br>
 🧪 Casos de Uso
 Ejecuta y adapta estos ejemplos a tus necesidades. Aquí tienes algunos puntos de partida para explorar:
 
@@ -18,7 +21,8 @@ python/netmiko-examples/config_backup.py: Script para generar un backup masivo d
 
 ansible/ios_vlan_deployment.yml: Playbook de Ansible que implementa una nueva VLAN en un grupo de switches.
 
-dnac-scripts/get_device_health.py: Consulta la API de Cisco DNA Center para obtener el estado de salud de todos los dispositivos gestionados.
+dnac-scripts/get_device_health.py: Consulta la API de Cisco DNA Center para obtener el estado de salud de todos los dispositivos gestionados.</br>
+</br>
 
 💬 Contribuciones
 ¡Tu colaboración es valiosa para la comunidad! Si tienes un script DevNet genial, una corrección o una mejora, por favor, ¡contribuye!
@@ -29,7 +33,7 @@ Crea una nueva branch para tu feature (git checkout -b feature/nuevo-script-mera
 
 Asegúrate de que tu código sigue las buenas prácticas.
 
-Abre un Pull Request detallando tus cambios.
-
+Abre un Pull Request detallando tus cambios.</br>
+</br>
 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
