@@ -16,13 +16,6 @@
 🛠️ Tecnologías y Plataformas Clave </br> Tipo de Herramientas/Plataformas Descripción Lenguaje Principal </br> ➕ Python 3.x Base de la automatización y desarrollo de scripts. 
 Configuración Ansible, Terraform </br> ➕ Gestión de configuración y despliegue de infraestructura como código. Dispositivos IOS-XE, NX-OS, Meraki, ACI Entornos de red y nube más comunes. Controladoras Cisco DNA Center, NSOPlataformas de automatización centralizada. Protocolos /APIsREST/RESTCONF, NETCONF, gRPC Interacción programática con dispositivos y controladoras.</br>
 </br>
-🧪 Casos de Uso
-Ejecuta y adapta estos ejemplos a tus necesidades. Aquí tienes algunos puntos de partida para explorar:
-
-python/netmiko-examples/config_backup.py: Script para generar un backup masivo de la configuración de n dispositivos IOS-XE.
-ansible/ios_vlan_deployment.yml: Playbook de Ansible que implementa una nueva VLAN en un grupo de switches.
-dnac-scripts/get_device_health.py: Consulta la API de Cisco DNA Center para obtener el estado de salud de todos los dispositivos gestionados.</br>
-</br>
 
 💬 Contribuciones
 ¡Tu colaboración es valiosa para la comunidad! Si tienes un script DevNet genial, una corrección o una mejora, por favor, ¡contribuye!
