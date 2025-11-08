@@ -2,9 +2,9 @@
 </br>
 📌Tabla de ContenidosEnfoque PrincipalEstructura del RepositorioTecnologías ClaveComenzando (Getting Started)Requisitos PreviosInstalaciónCasos de UsoContribucionesLicencia💡</br>
 </br>
-Enfoque PrincipalEl código se organiza para cubrir los siguientes pilares de la programabilidad:Automatización de Redes (NetDevOps): Uso de Python (con librerías como Netmiko, Paramiko, NAPALM, pyATS) y Ansible para tareas rutinarias de configuración, recopilación de datos y pruebas en dispositivos Cisco (IOS-XE, NX-OS, etc.).APIs y SDN: Ejemplos de consumo de APIs REST con plataformas líderes como Cisco DNA Center, Meraki, Webex y Cisco ACI.Gestión de Infraestructura: Scripts para la orquestación y despliegue usando herramientas como Terraform o NSO (Network Service Orchestrator).DevOps y Contenedores: Integración básica con Docker para asegurar entornos de ejecución consistentes.📂 </br>
+💡Enfoque PrincipalEl código se organiza para cubrir los siguientes pilares de la programabilidad:Automatización de Redes (NetDevOps): Uso de Python (con librerías como Netmiko, Paramiko, NAPALM, pyATS) y Ansible para tareas rutinarias de configuración, recopilación de datos y pruebas en dispositivos Cisco (IOS-XE, NX-OS, etc.).APIs y SDN: Ejemplos de consumo de APIs REST con plataformas líderes como Cisco DNA Center, Meraki, Webex y Cisco ACI.Gestión de Infraestructura: Scripts para la orquestación y despliegue usando herramientas como Terraform o NSO (Network Service Orchestrator).DevOps y Contenedores: Integración básica con Docker para asegurar entornos de ejecución consistentes. </br>
 </br>
-Estructura del RepositorioEl contenido está organizado por la tecnología principal o la plataforma de Cisco:├── ansible/                  # Playbooks y roles de Ansible para configuración.
+📂Estructura del RepositorioEl contenido está organizado por la tecnología principal o la plataforma de Cisco:├── ansible/                  # Playbooks y roles de Ansible para configuración.
 ├── python/</br>
 │   ├── netmiko-examples/     # Ejemplos de SSH/Telnet con Netmiko.</br>
 │   ├── dnac-scripts/         # Scripts que usan la API de Cisco DNA Center.</br>
