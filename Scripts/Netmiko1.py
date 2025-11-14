@@ -3,8 +3,8 @@ from netmiko import ConnectHandler
 cisco_881 = {
     'device_type': 'cisco_ios',
     'host':   '192.168.137.131',
-    'username': 'cisco',
-    'password': 'pasapalabra1968$$',
+    'username': '',
+    'password': '',
 }
 
 net_connect = ConnectHandler(**cisco_881)
